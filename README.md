@@ -1,29 +1,33 @@
-# front
+# Projeto de Cadastro de Usuários
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto é uma aplicação web para o cadastro de usuários, desenvolvida com Vue.js no frontend e Node.js com Express no backend. A aplicação consiste em um formulário dividido em quatro etapas, que valida os dados inseridos pelo usuário e envia-os a um servidor via uma API.
 
-## Recommended IDE Setup
+## Tecnologias Utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Frontend:** Vue.js 3 (Composition API com `<script setup>` e Vite)
+- **Backend:** Node.js com Express
+- **Estilos:** CSS customizado (sem frameworks de estilo)
 
-## Customize configuration
+## Pré-requisitos
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Node.js instalado (versão 14 ou superior)
+- NPM ou Yarn instalado
 
-## Project Setup
+## Instalação
 
-```sh
-npm install
-```
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/lucaswd21/desafio-mb-web
+   cd desafio-mb-web
 
-### Compile and Hot-Reload for Development
+2. **Instalando depedências**
+   npm install
 
-```sh
-npm run dev
-```
+3. **Buildando a aplicação**
+   npm run build
 
-### Compile and Minify for Production
+4. **Servindo a aplicação**
+   npm run serve
 
-```sh
-npm run build
-```
+5. **Acesse a aplicação pelo navegador**
+   http://localhost:3000/registration
