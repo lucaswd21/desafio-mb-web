@@ -35,10 +35,10 @@ Este projeto é uma aplicação web para o cadastro de usuários, desenvolvida c
 **Validações**
 A aplicação valida os seguintes campos:
 
-Email: Deve ser um email válido.
-CPF: Deve conter exatamente 11 dígitos numéricos(Sem pontos e traço).
-CNPJ: Deve conter exatamente 14 dígitos numéricos(Sem pontos, traço e barra).
-Senha: Deve ter ao menos 6 caracteres.
-Data de Nascimento/Data de Abertura: Formato dd-mm-aaaa.
-Telefone: Deve conter exatamente 11 dígitos numéricos.
-Campos Obrigatórios: Todos os campos devem ser preenchidos.
+- E-mail: Deve ser um email válido.
+- CPF: Deve conter exatamente 11 dígitos numéricos(Sem pontos e traço).
+- CNPJ: Deve conter exatamente 14 dígitos numéricos(Sem pontos, traço e barra).
+- Senha: Deve ter ao menos 6 caracteres.
+- Data de Nascimento/Data de Abertura: Formato dd-mm-aaaa.
+- Telefone: Deve conter exatamente 11 dígitos numéricos.
+- Campos Obrigatórios: Todos os campos devem ser preenchidos.
